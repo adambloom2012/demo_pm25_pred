@@ -3,12 +3,17 @@ name = "demo-pm25"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11,<3.12"
 dependencies = [
+    "cartopy>=0.25.0",
     "matplotlib>=3.10.8",
+    "numpy<2",
     "pandas>=3.0.1",
-    "rioxarray>=0.22.0",
+    "rasterio>=1.4.4",
+    "rioxarray>=0.19.0",
     "scikit-image>=0.26.0",
-    "tensorflow>=2.21.0",
+    "scipy>=1.17.1",
+    "tensorflow-macos==2.14.0",
+    "tensorflow-metal>=1.2.0",
     "xarray>=2026.2.0",
 ]
