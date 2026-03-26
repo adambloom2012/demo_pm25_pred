@@ -1,7 +1,7 @@
 [project]
 name = "demo-pm25"
 version = "0.1.0"
-description = "Add your description here"
+description = "Gap-filling and ground level PM2.5 pred"
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 dependencies = [
